@@ -5,7 +5,7 @@
     <meta name="theme-color" content="#BC8887" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Undangan Pernikahan Sherly & Daeng</title>
+    <title>Our wedding invitation</title>
 
     <meta property="og:title" content="Undangan Pernikahan Sherly & Daeng - Sabtu, 21 Maret 2020">
     <meta property="og:description" content="Undangan Pernikahan Sherly & Daeng - Sabtu, 21 Maret 2020 di RM Pondok Kenanga, Jakasampurna Bekasi">
@@ -39,13 +39,14 @@
 
     <!-- Github Button -->
     <script async defer src="https://buttons.github.io/buttons.js"></script>
+    
   </head>
 
-  <body>
-    <audio autoplay>
+  <body onclick="PlayAudio()">
+    <audio id="audio1" >
       <source src="image/y2mate.com - I Wanna Grow Old With You  Westlife.mp3" type="audio/mpeg">
-
     </audio>
+    
     <!-- Begin Preloader -->
     <div class="preloader-wrapper">
       <div class="preloader">
@@ -519,6 +520,13 @@ esperamos verte la próxima vez
         easing: "ease-out",
         duration: 800,
       });
+    </script>
+    <script>
+      function PlayAudio(){
+        document.getElementById("audio1").play();
+
+      }
+      
     </script>
   </body>
 </html>
