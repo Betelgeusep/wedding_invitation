@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Lato|Raleway|Rouge+Script");
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;600;700&family=Playfair+Display:ital,wght@0,400;0,600;1,500&family=Poppins:ital,wght@0,100;0,200;0,400;0,500;0,600;0,700;0,800;0,900;1,100&family=Tangerine:wght@400;700&display=swap');
 .has-vertically-aligned-content {
   display: flex;
   flex-direction: column;
@@ -320,15 +321,15 @@ body{
 }
 
 .nama-lengkap1 {
-  font-family: 'Rouge Script', sans-serif;
+  font-family: 'Tangerine', cursive;
   color: #996E6D;
-  font-size: 3.5rem;
+  font-size: 3rem;
   letter-spacing: 0px;
   padding-bottom: 6px;
   line-height: 3.7rem;
 }
 .ampersand {
-font-size: 5rem;
+font-size: 4rem;
 font-family: 'Rouge Script', sans-serif;
 color: #996E6D;
 line-height: 5rem;
