@@ -65,9 +65,10 @@ body{
 }
 
 .hero .subtitle {
-  padding: 35px;
+  padding: 15px;
   color: whitesmoke;
   font-size: 1.3rem;
+  margin-bottom: 0;
 }
 
 .hero .tempatwaktu {
@@ -347,7 +348,10 @@ vertical-align: middle;
 .bodytext {
   font-size: 18px;
 }
-
+.X{
+  margin: 0;
+  margin-top: 0;
+}
 .waktu {
   font-size: 1.4rem;
   font-family: 'Raleway', sans-serif;
